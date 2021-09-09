@@ -22,8 +22,7 @@ let package = Package(
 			dependencies: [],
 			path: "Client/iOS",
 			sources: ["LoggerClient.m"],
-            publicHeadersPath: "PublicHeaders",
-            cSettings: [CSetting.unsafeFlags(["-fno-objc-arc"])]
+            publicHeadersPath: "PublicHeaders"
 		),
         .testTarget(
             name: "NSLoggerTests",
